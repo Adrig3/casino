@@ -86,12 +86,12 @@ def menu():
         global salir
         while salir != True:
             print("=== BIENVENIDO AL CASINO, PRUEBE SU SUERTE EN LOS DADOS ===")
-            print("Opciones:                                                |")
-            print("(S) Salir                                                ♠")
-            print("(T) Tirar                                                ♥")
-            print("(M) Media aritmética                                     ♦")
-            print("(E) Estadísticas de números                              ♣")
-            print("(H) Muestra ayuda sobre el programa                      |")
+            print("Opciones:                                                 |")
+            print("(S) Salir                                                 ♠")
+            print("(T) Tirar                                                 ♥")
+            print("(M) Media aritmética                                      ♦")
+            print("(E) Estadísticas de números                               ♣")
+            print("(H) Muestra ayuda sobre el programa                       |")
             print("===========================================================")
             user_input = input("Seleccione una opción: ")
 
