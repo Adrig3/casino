@@ -74,7 +74,7 @@ def mostrar_estadisticas():
             porcentaje = (j / total_tiradas * 100) 
         else:
              porcentaje = 0
-        print(f"{i}: {j} ({porcentaje}%)")
+        print(f"El {i} ha salido {j} veces del total. Un {porcentaje}%.")
     print("")
 
 # La función le muestra ayuda al usuario
