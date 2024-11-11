@@ -79,7 +79,7 @@ def mostrar_estadisticas():
 
 # La función le muestra ayuda al usuario
 def ayuda():
-     print("\nPara interactuar con el programa, escribe una de las opciones listadas en el menú\n")
+     print("\nSALIR - Salir del programa\nTIRAR - Tiras los dados\nMEDIA - Calculas la media en base a las tiradas que hayas realizado\nESTADÍSTICAS - Muestra el porcentaje de aparición de cada número en tus tiradas\nAYUDA - Muestra este mensaje\n")
      
 # La función muestra un menú con todas las opciones posibles y ejecuta la función asignada a la opción elegida.
 def menu():
