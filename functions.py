@@ -52,7 +52,7 @@ def media():
          print("\nNo se han tirado dados.\n")
     else:
         media = suma_dados / tiradas_totales
-        print(f"\nLa media de las tiradas es de: {media}\n")
+        print(f"\nDe las {len(base_datos_dados)} tiradas, la media ha sido: {media}\n")
 
 # La función suma uno al diccionario base_estadisticas_dados en base al número que haya salido en los dados
 def añadir_estadisticas(a,b):
